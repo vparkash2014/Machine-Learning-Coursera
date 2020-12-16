@@ -8,7 +8,7 @@ Design a simple algorithm to distinguish cat images from non-cat images.
 
 I built a Logistic Regression, using a Neural Network mindset. 
 
-<img src="images/LogReg_kiank.png" style="width:650px;height:400px;">
+<img src="LogReg_kiank.png" style="width:650px;height:400px;">
 
 **Mathematical expression of the algorithm**:
 For one example <img src="https://render.githubusercontent.com/render/math?math=x^{(i)}">:
@@ -44,4 +44,7 @@ The cost is then computed by summing over all training examples:
     - Calculate current gradient (backward propagation)
     - Update parameters (gradient descent)
     
-*Files*
+**Main Files**
+1. are_you_a_cat.py -- main python code 
+2. my_function.py -- the functions I have written to build the model
+
